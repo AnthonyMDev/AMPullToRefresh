@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20D6939D15C0477386F5BC35 /* libPods-AMPullToRefreshTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62A3F56F1F4F4A2C8AA2A2B8 /* libPods-AMPullToRefreshTests.a */; };
+		921682EE19C15D1E007470B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921682ED19C15D1E007470B8 /* Foundation.framework */; };
+		921682F319C15D1E007470B8 /* AMPullToRefresh.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 921682F219C15D1E007470B8 /* AMPullToRefresh.h */; };
+		921682FC19C15D1E007470B8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921682FB19C15D1E007470B8 /* XCTest.framework */; };
+		921682FD19C15D1E007470B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921682ED19C15D1E007470B8 /* Foundation.framework */; };
+		921682FF19C15D1E007470B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921682FE19C15D1E007470B8 /* UIKit.framework */; };
+		9216830219C15D1E007470B8 /* libAMPullToRefresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 921682EA19C15D1E007470B8 /* libAMPullToRefresh.a */; };
+		9216830819C15D1E007470B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9216830619C15D1E007470B8 /* InfoPlist.strings */; };
+		9216831919C15F4E007470B8 /* NSBundle+AMPullToRefreshBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 9216831819C15F4E007470B8 /* NSBundle+AMPullToRefreshBundle.m */; };
+		9216831C19C15F94007470B8 /* UITableViewController+AMPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 9216831B19C15F94007470B8 /* UITableViewController+AMPullToRefresh.m */; };
+		9216831F19C16088007470B8 /* AMPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9216831E19C16088007470B8 /* AMPullToRefreshView.m */; };
+		9216832419C160E0007470B8 /* AMPullToRefreshViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9216832019C160E0007470B8 /* AMPullToRefreshViewTests.m */; };
+		9216832519C160E0007470B8 /* Test_AMPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9216832219C160E0007470B8 /* Test_AMPullToRefreshView.m */; };
+		9216832619C160E0007470B8 /* UITableViewController+AMPullToRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9216832319C160E0007470B8 /* UITableViewController+AMPullToRefreshTests.m */; };
+		9216832819C1621E007470B8 /* AMPullToRefreshNib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9216832719C1621E007470B8 /* AMPullToRefreshNib.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9216830019C15D1E007470B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 921682E219C15D1E007470B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 921682E919C15D1E007470B8;
+			remoteInfo = AMPullToRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		921682E819C15D1E007470B8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				921682F319C15D1E007470B8 /* AMPullToRefresh.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1056EB87F9A44222A4F40AEE /* Pods-AMPullToRefreshTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMPullToRefreshTests.xcconfig"; path = "Pods/Pods-AMPullToRefreshTests.xcconfig"; sourceTree = "<group>"; };
+		62A3F56F1F4F4A2C8AA2A2B8 /* libPods-AMPullToRefreshTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AMPullToRefreshTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		921682EA19C15D1E007470B8 /* libAMPullToRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAMPullToRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		921682ED19C15D1E007470B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		921682F119C15D1E007470B8 /* AMPullToRefresh-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMPullToRefresh-Prefix.pch"; sourceTree = "<group>"; };
+		921682F219C15D1E007470B8 /* AMPullToRefresh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMPullToRefresh.h; sourceTree = "<group>"; };
+		921682FA19C15D1E007470B8 /* AMPullToRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMPullToRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		921682FB19C15D1E007470B8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		921682FE19C15D1E007470B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		9216830519C15D1E007470B8 /* AMPullToRefreshTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AMPullToRefreshTests-Info.plist"; sourceTree = "<group>"; };
+		9216830719C15D1E007470B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9216831619C15EB1007470B8 /* AMPullToRefreshView_Protected.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMPullToRefreshView_Protected.h; sourceTree = "<group>"; };
+		9216831719C15F4E007470B8 /* NSBundle+AMPullToRefreshBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+AMPullToRefreshBundle.h"; sourceTree = "<group>"; };
+		9216831819C15F4E007470B8 /* NSBundle+AMPullToRefreshBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+AMPullToRefreshBundle.m"; sourceTree = "<group>"; };
+		9216831A19C15F94007470B8 /* UITableViewController+AMPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+AMPullToRefresh.h"; sourceTree = "<group>"; };
+		9216831B19C15F94007470B8 /* UITableViewController+AMPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+AMPullToRefresh.m"; sourceTree = "<group>"; };
+		9216831D19C16088007470B8 /* AMPullToRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AMPullToRefreshView.h; sourceTree = "<group>"; };
+		9216831E19C16088007470B8 /* AMPullToRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPullToRefreshView.m; sourceTree = "<group>"; };
+		9216832019C160E0007470B8 /* AMPullToRefreshViewTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AMPullToRefreshViewTests.m; sourceTree = "<group>"; };
+		9216832119C160E0007470B8 /* Test_AMPullToRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test_AMPullToRefreshView.h; sourceTree = "<group>"; };
+		9216832219C160E0007470B8 /* Test_AMPullToRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test_AMPullToRefreshView.m; sourceTree = "<group>"; };
+		9216832319C160E0007470B8 /* UITableViewController+AMPullToRefreshTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+AMPullToRefreshTests.m"; sourceTree = "<group>"; };
+		9216832719C1621E007470B8 /* AMPullToRefreshNib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AMPullToRefreshNib.xib; path = Resources/AMPullToRefreshNib.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		921682E719C15D1E007470B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921682EE19C15D1E007470B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921682F719C15D1E007470B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				921682FC19C15D1E007470B8 /* XCTest.framework in Frameworks */,
+				921682FF19C15D1E007470B8 /* UIKit.framework in Frameworks */,
+				921682FD19C15D1E007470B8 /* Foundation.framework in Frameworks */,
+				9216830219C15D1E007470B8 /* libAMPullToRefresh.a in Frameworks */,
+				20D6939D15C0477386F5BC35 /* libPods-AMPullToRefreshTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		921682E119C15D1E007470B8 = {
+			isa = PBXGroup;
+			children = (
+				921682EF19C15D1E007470B8 /* AMPullToRefresh */,
+				9216830319C15D1E007470B8 /* AMPullToRefreshTests */,
+				921682EC19C15D1E007470B8 /* Frameworks */,
+				921682EB19C15D1E007470B8 /* Products */,
+				1056EB87F9A44222A4F40AEE /* Pods-AMPullToRefreshTests.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		921682EB19C15D1E007470B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				921682EA19C15D1E007470B8 /* libAMPullToRefresh.a */,
+				921682FA19C15D1E007470B8 /* AMPullToRefreshTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		921682EC19C15D1E007470B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				921682ED19C15D1E007470B8 /* Foundation.framework */,
+				921682FB19C15D1E007470B8 /* XCTest.framework */,
+				921682FE19C15D1E007470B8 /* UIKit.framework */,
+				62A3F56F1F4F4A2C8AA2A2B8 /* libPods-AMPullToRefreshTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		921682EF19C15D1E007470B8 /* AMPullToRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				9216832719C1621E007470B8 /* AMPullToRefreshNib.xib */,
+				921682F219C15D1E007470B8 /* AMPullToRefresh.h */,
+				9216831619C15EB1007470B8 /* AMPullToRefreshView_Protected.h */,
+				9216831D19C16088007470B8 /* AMPullToRefreshView.h */,
+				9216831E19C16088007470B8 /* AMPullToRefreshView.m */,
+				9216831719C15F4E007470B8 /* NSBundle+AMPullToRefreshBundle.h */,
+				9216831819C15F4E007470B8 /* NSBundle+AMPullToRefreshBundle.m */,
+				9216831A19C15F94007470B8 /* UITableViewController+AMPullToRefresh.h */,
+				9216831B19C15F94007470B8 /* UITableViewController+AMPullToRefresh.m */,
+				921682F019C15D1E007470B8 /* Supporting Files */,
+			);
+			path = AMPullToRefresh;
+			sourceTree = "<group>";
+		};
+		921682F019C15D1E007470B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				921682F119C15D1E007470B8 /* AMPullToRefresh-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9216830319C15D1E007470B8 /* AMPullToRefreshTests */ = {
+			isa = PBXGroup;
+			children = (
+				9216832019C160E0007470B8 /* AMPullToRefreshViewTests.m */,
+				9216832119C160E0007470B8 /* Test_AMPullToRefreshView.h */,
+				9216832219C160E0007470B8 /* Test_AMPullToRefreshView.m */,
+				9216832319C160E0007470B8 /* UITableViewController+AMPullToRefreshTests.m */,
+				9216830419C15D1E007470B8 /* Supporting Files */,
+			);
+			path = AMPullToRefreshTests;
+			sourceTree = "<group>";
+		};
+		9216830419C15D1E007470B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9216830519C15D1E007470B8 /* AMPullToRefreshTests-Info.plist */,
+				9216830619C15D1E007470B8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		921682E919C15D1E007470B8 /* AMPullToRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9216830D19C15D1E007470B8 /* Build configuration list for PBXNativeTarget "AMPullToRefresh" */;
+			buildPhases = (
+				921682E619C15D1E007470B8 /* Sources */,
+				921682E719C15D1E007470B8 /* Frameworks */,
+				921682E819C15D1E007470B8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMPullToRefresh;
+			productName = AMPullToRefresh;
+			productReference = 921682EA19C15D1E007470B8 /* libAMPullToRefresh.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		921682F919C15D1E007470B8 /* AMPullToRefreshTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9216831019C15D1E007470B8 /* Build configuration list for PBXNativeTarget "AMPullToRefreshTests" */;
+			buildPhases = (
+				16A6ACE7799547C59DFB7CAC /* Check Pods Manifest.lock */,
+				921682F619C15D1E007470B8 /* Sources */,
+				921682F719C15D1E007470B8 /* Frameworks */,
+				921682F819C15D1E007470B8 /* Resources */,
+				A1D765716F754357842F9DAF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9216830119C15D1E007470B8 /* PBXTargetDependency */,
+			);
+			name = AMPullToRefreshTests;
+			productName = AMPullToRefreshTests;
+			productReference = 921682FA19C15D1E007470B8 /* AMPullToRefreshTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		921682E219C15D1E007470B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "App-Order";
+			};
+			buildConfigurationList = 921682E519C15D1E007470B8 /* Build configuration list for PBXProject "AMPullToRefresh" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 921682E119C15D1E007470B8;
+			productRefGroup = 921682EB19C15D1E007470B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				921682E919C15D1E007470B8 /* AMPullToRefresh */,
+				921682F919C15D1E007470B8 /* AMPullToRefreshTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		921682F819C15D1E007470B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9216830819C15D1E007470B8 /* InfoPlist.strings in Resources */,
+				9216832819C1621E007470B8 /* AMPullToRefreshNib.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16A6ACE7799547C59DFB7CAC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1D765716F754357842F9DAF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-AMPullToRefreshTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		921682E619C15D1E007470B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9216831919C15F4E007470B8 /* NSBundle+AMPullToRefreshBundle.m in Sources */,
+				9216831C19C15F94007470B8 /* UITableViewController+AMPullToRefresh.m in Sources */,
+				9216831F19C16088007470B8 /* AMPullToRefreshView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		921682F619C15D1E007470B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9216832619C160E0007470B8 /* UITableViewController+AMPullToRefreshTests.m in Sources */,
+				9216832519C160E0007470B8 /* Test_AMPullToRefreshView.m in Sources */,
+				9216832419C160E0007470B8 /* AMPullToRefreshViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9216830119C15D1E007470B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 921682E919C15D1E007470B8 /* AMPullToRefresh */;
+			targetProxy = 9216830019C15D1E007470B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9216830619C15D1E007470B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9216830719C15D1E007470B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9216830B19C15D1E007470B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9216830C19C15D1E007470B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9216830E19C15D1E007470B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AMPullToRefresh.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMPullToRefresh/AMPullToRefresh-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		9216830F19C15D1E007470B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AMPullToRefresh.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMPullToRefresh/AMPullToRefresh-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9216831119C15D1E007470B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1056EB87F9A44222A4F40AEE /* Pods-AMPullToRefreshTests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMPullToRefresh/AMPullToRefresh-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AMPullToRefreshTests/AMPullToRefreshTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		9216831219C15D1E007470B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1056EB87F9A44222A4F40AEE /* Pods-AMPullToRefreshTests.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AMPullToRefresh/AMPullToRefresh-Prefix.pch";
+				INFOPLIST_FILE = "AMPullToRefreshTests/AMPullToRefreshTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		921682E519C15D1E007470B8 /* Build configuration list for PBXProject "AMPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9216830B19C15D1E007470B8 /* Debug */,
+				9216830C19C15D1E007470B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9216830D19C15D1E007470B8 /* Build configuration list for PBXNativeTarget "AMPullToRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9216830E19C15D1E007470B8 /* Debug */,
+				9216830F19C15D1E007470B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9216831019C15D1E007470B8 /* Build configuration list for PBXNativeTarget "AMPullToRefreshTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9216831119C15D1E007470B8 /* Debug */,
+				9216831219C15D1E007470B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 921682E219C15D1E007470B8 /* Project object */;
+}
