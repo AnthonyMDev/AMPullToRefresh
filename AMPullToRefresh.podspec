@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = '7.0'
   s.name         = 'AMPullToRefresh'
-  s.version      = '0.1.0'
+  s.version      = '1.0.0'
   s.summary      = 'A controller to add a pull to refresh view to a scroll view.'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Anthony Miller" => "AnthonyMDev@gmail.com" }
