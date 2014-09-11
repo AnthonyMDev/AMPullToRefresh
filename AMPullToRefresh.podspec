@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.summary      = 'A controller to add a pull to refresh view to a scroll view.'
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Anthony Miller" => "AnthonyMDev@gmail.com" }
-  s.source   	 = { :git => 'https://bitbucket.org/anthonymdev/ampulltorefresh.git',
+  s.source   	 = { :git => 'https://github.com/anthonymdev/ampulltorefresh.git',
                      :tag => "#{s.version}"}
   s.requires_arc = true
   s.resource_bundles = {'AMPullToRefreshBundle' => ['AMPullToRefresh/Resources/*']}
